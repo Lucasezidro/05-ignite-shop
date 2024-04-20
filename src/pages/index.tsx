@@ -32,6 +32,7 @@ export default function Home({ products }: HomeProps) {
           <Link 
             href={`/product/${product.id}`} 
             key={product.id}
+            prefetch={false}
             passHref
             legacyBehavior
           >
